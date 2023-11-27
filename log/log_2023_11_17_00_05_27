@@ -1,0 +1,7 @@
+2023/11/17 00:05:28 [INFO] main.94 Log is ready!
+2023/11/17 00:05:28 [INFO] main.95 Namespace(K=1, assignee=False, awp=-1, batch=12, bert='nghuyong/ernie-3.0-base-zh', board=True, cb=False, cbntr=False, checkpoint=20, data_file='train.json', data_folder_dir='fewshot', datetime='2023_11_17_00_05_27', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=1, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=True, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=True, warmup=0.0)
+2023/11/17 00:05:28 [INFO] main.102 Tensorboard is ready!
+2023/11/17 00:05:28 [INFO] main.106 GPU:0
+2023/11/17 00:05:28 [INFO] main.117 Seed:42
+2023/11/17 00:05:28 [INFO] main.151 Read data: ./data/fewshot/train.json
+2023/11/17 00:05:28 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443

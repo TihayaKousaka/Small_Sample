@@ -1,0 +1,69 @@
+2023/11/17 00:05:54 [INFO] main.94 Log is ready!
+2023/11/17 00:05:54 [INFO] main.95 Namespace(K=1, assignee=False, awp=-1, batch=12, bert='nghuyong/ernie-3.0-base-zh', board=True, cb=False, cbntr=False, checkpoint=20, data_file='train.json', data_folder_dir='fewshot', datetime='2023_11_17_00_05_52', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=1, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=True, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=True, warmup=0.0)
+2023/11/17 00:05:54 [INFO] main.102 Tensorboard is ready!
+2023/11/17 00:05:54 [INFO] main.106 GPU:0
+2023/11/17 00:05:54 [INFO] main.117 Seed:42
+2023/11/17 00:05:54 [INFO] main.151 Read data: ./data/fewshot/train.json
+2023/11/17 00:05:54 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 00:05:55 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:05:55 [DEBUG] _api.254 Attempting to acquire lock 140466051588048 on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/1764f9db1d80d9511f635dda50991fcabd016dc9.lock
+2023/11/17 00:05:55 [DEBUG] _api.257 Lock 140466051588048 acquired on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/1764f9db1d80d9511f635dda50991fcabd016dc9.lock
+2023/11/17 00:05:55 [DEBUG] connectionpool.452 https://huggingface.co:443 "GET /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 504
+2023/11/17 00:05:55 [DEBUG] _api.286 Attempting to release lock 140466051588048 on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/1764f9db1d80d9511f635dda50991fcabd016dc9.lock
+2023/11/17 00:05:55 [DEBUG] _api.289 Lock 140466051588048 released on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/1764f9db1d80d9511f635dda50991fcabd016dc9.lock
+2023/11/17 00:05:55 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/model.safetensors HTTP/1.1" 404 0
+2023/11/17 00:05:56 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/model.safetensors.index.json HTTP/1.1" 404 0
+2023/11/17 00:05:56 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2023/11/17 00:05:56 [DEBUG] _api.254 Attempting to acquire lock 140465957850896 on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/70f4eead24a3263534ec6e70d692a52a1e5fbd199f154076532e6fdcf536cbfd.lock
+2023/11/17 00:05:56 [DEBUG] _api.257 Lock 140465957850896 acquired on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/70f4eead24a3263534ec6e70d692a52a1e5fbd199f154076532e6fdcf536cbfd.lock
+2023/11/17 00:05:56 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+2023/11/17 00:05:57 [DEBUG] connectionpool.452 https://cdn-lfs.huggingface.co:443 "GET /repos/8a/4e/8a4e08a9c13075c49926df4020cd5006fecc60a27e32e0988d5a045a97170b23/70f4eead24a3263534ec6e70d692a52a1e5fbd199f154076532e6fdcf536cbfd?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1700409956&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwMDQwOTk1Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy84YS80ZS84YTRlMDhhOWMxMzA3NWM0OTkyNmRmNDAyMGNkNTAwNmZlY2M2MGEyN2UzMmUwOTg4ZDVhMDQ1YTk3MTcwYjIzLzcwZjRlZWFkMjRhMzI2MzUzNGVjNmU3MGQ2OTJhNTJhMWU1ZmJkMTk5ZjE1NDA3NjUzMmU2ZmRjZjUzNmNiZmQ~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=FOhz7eR0AoXxUvcm8EmLFumHrXmBGL56RwZben87l23lVVvz44BdYCOnx2u3J6vQjoXcmQu3ymidhnze2cZcFZcOQK0enOUAJCtqfnySI4Bt1gfjtQagqzEC~QVTsmXCzgkPTs5eGfKhCLGREUK1ezAJpDops7Sq8NlNsVvEuELNARwJHYdLBlVpZocLwXPWRVOYzm4gsGmEcahDGvQyI69zRv~dUNgqiNkfzsC1dfu3E7VXwKcxqCSZ6UAKMPY3DmJ9MmfoUldwaxgPSHoW2GLINaKG5Ncmnckd~~O5KHJdaxUAnWUMndhUfnUpa0ksxnesb7oe7vDDbGifHn5cXg__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 474373095
+2023/11/17 00:05:58 [DEBUG] _api.286 Attempting to release lock 140465957850896 on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/70f4eead24a3263534ec6e70d692a52a1e5fbd199f154076532e6fdcf536cbfd.lock
+2023/11/17 00:05:58 [DEBUG] _api.289 Lock 140465957850896 released on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/70f4eead24a3263534ec6e70d692a52a1e5fbd199f154076532e6fdcf536cbfd.lock
+2023/11/17 00:06:04 [INFO] main.344 Start Training 0!
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 00:06:05 [DEBUG] _api.254 Attempting to acquire lock 140465955358416 on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/4bc441538c25fdfa6b9e5f62f6b69e414c85fe16.lock
+2023/11/17 00:06:05 [DEBUG] _api.257 Lock 140465955358416 acquired on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/4bc441538c25fdfa6b9e5f62f6b69e414c85fe16.lock
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "GET /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 186807
+2023/11/17 00:06:05 [DEBUG] _api.286 Attempting to release lock 140465955358416 on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/4bc441538c25fdfa6b9e5f62f6b69e414c85fe16.lock
+2023/11/17 00:06:05 [DEBUG] _api.289 Lock 140465955358416 released on /root/.cache/huggingface/hub/.locks/models--nghuyong--ernie-3.0-base-zh/4bc441538c25fdfa6b9e5f62f6b69e414c85fe16.lock
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2023/11/17 00:06:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2023/11/17 00:06:06 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2023/11/17 00:06:18 [INFO] main.457 Train Epoch = 1 Loss:17.7967 Metrics:{'F1score': 0.008894, 'Precision': 0.005294, 'Recall': 0.027778}
+2023/11/17 00:06:19 [INFO] main.468 Eval Epoch = 1 Metrics:{'F1score': 0.008976, 'Precision': 0.005353, 'Recall': 0.027778}
+2023/11/17 00:06:21 [INFO] main.473 checkpoint_0_0_epoch.pt Saved!
+2023/11/17 00:06:21 [INFO] main.476 Test metrics:0.008976 > max_metric!
+2023/11/17 00:06:21 [INFO] main.485 Best Model Saved!
+2023/11/17 00:06:24 [INFO] main.94 Log is ready!
+2023/11/17 00:06:24 [INFO] main.95 Namespace(K=1, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='train.json', data_folder_dir='fewshot', datetime='2023_11_17_00_05_52', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 00:06:24 [INFO] main.106 GPU:0
+2023/11/17 00:06:24 [INFO] main.117 Seed:42
+2023/11/17 00:06:24 [INFO] main.151 Read data: ./data/fewshot/train.json
+2023/11/17 00:06:24 [INFO] main.509 Start evaluate!
+2023/11/17 00:06:24 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 00:06:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:06:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:06:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:06:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 00:06:27 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:06:33 [INFO] main.535 best_0.pt Loaded!
+2023/11/17 00:06:37 [INFO] main.572 Metrics for best_0.pt : {'F1score': 0.00891, 'Precision': 0.005306, 'Recall': 0.027778}
+2023/11/17 00:06:37 [INFO] main.578 Metrics for all model : {'F1score': 0.00891, 'Precision': 0.005306, 'Recall': 0.027778}
+2023/11/17 00:06:39 [INFO] main.94 Log is ready!
+2023/11/17 00:06:39 [INFO] main.95 Namespace(K=1, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_00_05_52', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 00:06:39 [INFO] main.106 GPU:0
+2023/11/17 00:06:39 [INFO] main.117 Seed:42
+2023/11/17 00:06:40 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 00:06:40 [INFO] main.509 Start evaluate!
+2023/11/17 00:06:40 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 00:06:41 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:06:41 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:06:41 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:06:41 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 00:07:01 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 00:07:01 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 00:07:02 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0

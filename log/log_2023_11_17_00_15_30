@@ -1,0 +1,216 @@
+2023/11/17 00:15:32 [INFO] main.94 Log is ready!
+2023/11/17 00:15:32 [INFO] main.95 Namespace(K=3, assignee=False, awp=-1, batch=12, bert='nghuyong/ernie-3.0-base-zh', board=True, cb=False, cbntr=False, checkpoint=20, data_file='train.json', data_folder_dir='fewshot', datetime='2023_11_17_00_15_30', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=30, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=True, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=True, warmup=0.0)
+2023/11/17 00:15:32 [INFO] main.102 Tensorboard is ready!
+2023/11/17 00:15:32 [INFO] main.106 GPU:0
+2023/11/17 00:15:32 [INFO] main.117 Seed:42
+2023/11/17 00:15:32 [INFO] main.151 Read data: ./data/fewshot/train.json
+2023/11/17 00:15:32 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 00:15:33 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:15:39 [INFO] main.344 Start Training 1!
+2023/11/17 00:15:40 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:15:40 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:15:40 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:15:40 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 00:15:51 [INFO] main.457 Train Epoch = 1 Loss:15.0313 Metrics:{'F1score': 0.008918, 'Precision': 0.005312, 'Recall': 0.027778}
+2023/11/17 00:15:52 [INFO] main.468 Eval Epoch = 1 Metrics:{'F1score': 0.008895, 'Precision': 0.005295, 'Recall': 0.027778}
+2023/11/17 00:15:54 [INFO] main.473 checkpoint_0_1_epoch.pt Saved!
+2023/11/17 00:15:54 [INFO] main.476 Test metrics:0.008895 > max_metric!
+2023/11/17 00:15:54 [INFO] main.485 Best Model Saved!
+2023/11/17 00:16:05 [INFO] main.457 Train Epoch = 2 Loss:13.7825 Metrics:{'F1score': 0.059145, 'Precision': 0.073423, 'Recall': 0.092277}
+2023/11/17 00:16:06 [INFO] main.468 Eval Epoch = 2 Metrics:{'F1score': 0.042128, 'Precision': 0.04049, 'Recall': 0.075353}
+2023/11/17 00:16:06 [INFO] main.476 Test metrics:0.042128 > max_metric!
+2023/11/17 00:16:07 [INFO] main.485 Best Model Saved!
+2023/11/17 00:16:17 [INFO] main.457 Train Epoch = 3 Loss:12.5251 Metrics:{'F1score': 0.112213, 'Precision': 0.120933, 'Recall': 0.166552}
+2023/11/17 00:16:18 [INFO] main.468 Eval Epoch = 3 Metrics:{'F1score': 0.099108, 'Precision': 0.109851, 'Recall': 0.143338}
+2023/11/17 00:16:18 [INFO] main.476 Test metrics:0.099108 > max_metric!
+2023/11/17 00:16:18 [INFO] main.485 Best Model Saved!
+2023/11/17 00:16:28 [INFO] main.457 Train Epoch = 4 Loss:11.1388 Metrics:{'F1score': 0.19582, 'Precision': 0.265116, 'Recall': 0.220985}
+2023/11/17 00:16:29 [INFO] main.468 Eval Epoch = 4 Metrics:{'F1score': 0.142949, 'Precision': 0.141727, 'Recall': 0.173632}
+2023/11/17 00:16:29 [INFO] main.476 Test metrics:0.142949 > max_metric!
+2023/11/17 00:16:30 [INFO] main.485 Best Model Saved!
+2023/11/17 00:16:40 [INFO] main.457 Train Epoch = 5 Loss:9.98648 Metrics:{'F1score': 0.278308, 'Precision': 0.342953, 'Recall': 0.326023}
+2023/11/17 00:16:41 [INFO] main.468 Eval Epoch = 5 Metrics:{'F1score': 0.200436, 'Precision': 0.24266, 'Recall': 0.245371}
+2023/11/17 00:16:41 [INFO] main.476 Test metrics:0.200436 > max_metric!
+2023/11/17 00:16:41 [INFO] main.485 Best Model Saved!
+2023/11/17 00:16:51 [INFO] main.457 Train Epoch = 6 Loss:8.53577 Metrics:{'F1score': 0.414873, 'Precision': 0.439457, 'Recall': 0.439915}
+2023/11/17 00:16:52 [INFO] main.468 Eval Epoch = 6 Metrics:{'F1score': 0.264883, 'Precision': 0.336058, 'Recall': 0.281751}
+2023/11/17 00:16:52 [INFO] main.476 Test metrics:0.264883 > max_metric!
+2023/11/17 00:16:53 [INFO] main.485 Best Model Saved!
+2023/11/17 00:17:03 [INFO] main.457 Train Epoch = 7 Loss:7.35889 Metrics:{'F1score': 0.537569, 'Precision': 0.594287, 'Recall': 0.547124}
+2023/11/17 00:17:04 [INFO] main.468 Eval Epoch = 7 Metrics:{'F1score': 0.326368, 'Precision': 0.37975, 'Recall': 0.345619}
+2023/11/17 00:17:04 [INFO] main.476 Test metrics:0.326368 > max_metric!
+2023/11/17 00:17:05 [INFO] main.485 Best Model Saved!
+2023/11/17 00:17:15 [INFO] main.457 Train Epoch = 8 Loss:6.43488 Metrics:{'F1score': 0.638926, 'Precision': 0.745706, 'Recall': 0.635097}
+2023/11/17 00:17:16 [INFO] main.468 Eval Epoch = 8 Metrics:{'F1score': 0.389618, 'Precision': 0.43773, 'Recall': 0.402436}
+2023/11/17 00:17:16 [INFO] main.476 Test metrics:0.389618 > max_metric!
+2023/11/17 00:17:17 [INFO] main.485 Best Model Saved!
+2023/11/17 00:17:26 [INFO] main.457 Train Epoch = 9 Loss:5.59484 Metrics:{'F1score': 0.721108, 'Precision': 0.774447, 'Recall': 0.716828}
+2023/11/17 00:17:27 [INFO] main.468 Eval Epoch = 9 Metrics:{'F1score': 0.419843, 'Precision': 0.458967, 'Recall': 0.444377}
+2023/11/17 00:17:27 [INFO] main.476 Test metrics:0.419843 > max_metric!
+2023/11/17 00:17:28 [INFO] main.485 Best Model Saved!
+2023/11/17 00:17:38 [INFO] main.457 Train Epoch = 10 Loss:4.94507 Metrics:{'F1score': 0.766947, 'Precision': 0.800657, 'Recall': 0.762054}
+2023/11/17 00:17:39 [INFO] main.468 Eval Epoch = 10 Metrics:{'F1score': 0.417968, 'Precision': 0.442148, 'Recall': 0.452778}
+2023/11/17 00:17:49 [INFO] main.457 Train Epoch = 11 Loss:4.62466 Metrics:{'F1score': 0.806411, 'Precision': 0.824093, 'Recall': 0.805274}
+2023/11/17 00:17:50 [INFO] main.468 Eval Epoch = 11 Metrics:{'F1score': 0.500551, 'Precision': 0.552624, 'Recall': 0.501435}
+2023/11/17 00:17:50 [INFO] main.476 Test metrics:0.500551 > max_metric!
+2023/11/17 00:17:50 [INFO] main.485 Best Model Saved!
+2023/11/17 00:18:00 [INFO] main.457 Train Epoch = 12 Loss:4.06042 Metrics:{'F1score': 0.848749, 'Precision': 0.863467, 'Recall': 0.852197}
+2023/11/17 00:18:01 [INFO] main.468 Eval Epoch = 12 Metrics:{'F1score': 0.509952, 'Precision': 0.543064, 'Recall': 0.519344}
+2023/11/17 00:18:01 [INFO] main.476 Test metrics:0.509952 > max_metric!
+2023/11/17 00:18:02 [INFO] main.485 Best Model Saved!
+2023/11/17 00:18:12 [INFO] main.457 Train Epoch = 13 Loss:3.43729 Metrics:{'F1score': 0.877373, 'Precision': 0.873698, 'Recall': 0.886365}
+2023/11/17 00:18:14 [INFO] main.468 Eval Epoch = 13 Metrics:{'F1score': 0.454687, 'Precision': 0.465983, 'Recall': 0.482706}
+2023/11/17 00:18:23 [INFO] main.457 Train Epoch = 14 Loss:2.99605 Metrics:{'F1score': 0.88215, 'Precision': 0.900313, 'Recall': 0.887037}
+2023/11/17 00:18:24 [INFO] main.468 Eval Epoch = 14 Metrics:{'F1score': 0.508138, 'Precision': 0.544129, 'Recall': 0.515145}
+2023/11/17 00:18:34 [INFO] main.457 Train Epoch = 15 Loss:2.67592 Metrics:{'F1score': 0.902287, 'Precision': 0.911387, 'Recall': 0.913194}
+2023/11/17 00:18:35 [INFO] main.468 Eval Epoch = 15 Metrics:{'F1score': 0.475465, 'Precision': 0.480026, 'Recall': 0.509181}
+2023/11/17 00:18:45 [INFO] main.457 Train Epoch = 16 Loss:2.50766 Metrics:{'F1score': 0.90996, 'Precision': 0.914954, 'Recall': 0.917141}
+2023/11/17 00:18:46 [INFO] main.468 Eval Epoch = 16 Metrics:{'F1score': 0.489504, 'Precision': 0.500339, 'Recall': 0.525092}
+2023/11/17 00:18:56 [INFO] main.457 Train Epoch = 17 Loss:2.19087 Metrics:{'F1score': 0.911531, 'Precision': 0.908834, 'Recall': 0.919684}
+2023/11/17 00:18:57 [INFO] main.468 Eval Epoch = 17 Metrics:{'F1score': 0.482725, 'Precision': 0.508263, 'Recall': 0.505152}
+2023/11/17 00:19:07 [INFO] main.457 Train Epoch = 18 Loss:2.08597 Metrics:{'F1score': 0.929607, 'Precision': 0.948237, 'Recall': 0.931871}
+2023/11/17 00:19:08 [INFO] main.468 Eval Epoch = 18 Metrics:{'F1score': 0.509186, 'Precision': 0.579537, 'Recall': 0.518145}
+2023/11/17 00:19:18 [INFO] main.457 Train Epoch = 19 Loss:1.92359 Metrics:{'F1score': 0.939057, 'Precision': 0.946223, 'Recall': 0.943673}
+2023/11/17 00:19:19 [INFO] main.468 Eval Epoch = 19 Metrics:{'F1score': 0.491404, 'Precision': 0.521489, 'Recall': 0.514576}
+2023/11/17 00:19:29 [INFO] main.457 Train Epoch = 20 Loss:1.7598 Metrics:{'F1score': 0.943809, 'Precision': 0.950613, 'Recall': 0.948302}
+2023/11/17 00:19:30 [INFO] main.468 Eval Epoch = 20 Metrics:{'F1score': 0.483234, 'Precision': 0.488559, 'Recall': 0.514509}
+2023/11/17 00:19:40 [INFO] main.457 Train Epoch = 21 Loss:1.55274 Metrics:{'F1score': 0.961633, 'Precision': 0.986046, 'Recall': 0.960648}
+2023/11/17 00:19:41 [INFO] main.468 Eval Epoch = 21 Metrics:{'F1score': 0.483943, 'Precision': 0.506041, 'Recall': 0.509524}
+2023/11/17 00:19:43 [INFO] main.473 checkpoint_20_1_epoch.pt Saved!
+2023/11/17 00:19:52 [INFO] main.457 Train Epoch = 22 Loss:1.42948 Metrics:{'F1score': 0.948689, 'Precision': 0.954803, 'Recall': 0.953704}
+2023/11/17 00:19:53 [INFO] main.468 Eval Epoch = 22 Metrics:{'F1score': 0.491408, 'Precision': 0.500424, 'Recall': 0.520309}
+2023/11/17 00:19:53 [INFO] main.489 The Effect of last 10 epochs has not improved! Early Stop!
+2023/11/17 00:19:53 [INFO] main.490 Best Metric: 0.509952
+2023/11/17 00:19:53 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 00:19:53 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 00:19:54 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:19:56 [INFO] main.344 Start Training 2!
+2023/11/17 00:19:56 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:19:56 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:19:56 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:19:56 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 00:20:08 [INFO] main.457 Train Epoch = 1 Loss:15.1287 Metrics:{'F1score': 0.008906, 'Precision': 0.005303, 'Recall': 0.027778}
+2023/11/17 00:20:09 [INFO] main.468 Eval Epoch = 1 Metrics:{'F1score': 0.008918, 'Precision': 0.005312, 'Recall': 0.027778}
+2023/11/17 00:20:10 [INFO] main.473 checkpoint_0_2_epoch.pt Saved!
+2023/11/17 00:20:10 [INFO] main.476 Test metrics:0.008918 > max_metric!
+2023/11/17 00:20:11 [INFO] main.485 Best Model Saved!
+2023/11/17 00:20:21 [INFO] main.457 Train Epoch = 2 Loss:14.2198 Metrics:{'F1score': 0.053344, 'Precision': 0.049743, 'Recall': 0.093713}
+2023/11/17 00:20:22 [INFO] main.468 Eval Epoch = 2 Metrics:{'F1score': 0.039218, 'Precision': 0.027015, 'Recall': 0.077738}
+2023/11/17 00:20:22 [INFO] main.476 Test metrics:0.039218 > max_metric!
+2023/11/17 00:20:23 [INFO] main.485 Best Model Saved!
+2023/11/17 00:20:33 [INFO] main.457 Train Epoch = 3 Loss:13.0214 Metrics:{'F1score': 0.121498, 'Precision': 0.115459, 'Recall': 0.167045}
+2023/11/17 00:20:34 [INFO] main.468 Eval Epoch = 3 Metrics:{'F1score': 0.087987, 'Precision': 0.086053, 'Recall': 0.139053}
+2023/11/17 00:20:34 [INFO] main.476 Test metrics:0.087987 > max_metric!
+2023/11/17 00:20:34 [INFO] main.485 Best Model Saved!
+2023/11/17 00:20:44 [INFO] main.457 Train Epoch = 4 Loss:12.0266 Metrics:{'F1score': 0.220671, 'Precision': 0.325441, 'Recall': 0.261165}
+2023/11/17 00:20:45 [INFO] main.468 Eval Epoch = 4 Metrics:{'F1score': 0.15379, 'Precision': 0.17333, 'Recall': 0.202958}
+2023/11/17 00:20:45 [INFO] main.476 Test metrics:0.15379 > max_metric!
+2023/11/17 00:20:46 [INFO] main.485 Best Model Saved!
+2023/11/17 00:20:55 [INFO] main.457 Train Epoch = 5 Loss:10.9104 Metrics:{'F1score': 0.292417, 'Precision': 0.311612, 'Recall': 0.332598}
+2023/11/17 00:20:57 [INFO] main.468 Eval Epoch = 5 Metrics:{'F1score': 0.199345, 'Precision': 0.217653, 'Recall': 0.238646}
+2023/11/17 00:20:57 [INFO] main.476 Test metrics:0.199345 > max_metric!
+2023/11/17 00:20:57 [INFO] main.485 Best Model Saved!
+2023/11/17 00:21:07 [INFO] main.457 Train Epoch = 6 Loss:9.8714 Metrics:{'F1score': 0.389585, 'Precision': 0.422552, 'Recall': 0.419505}
+2023/11/17 00:21:08 [INFO] main.468 Eval Epoch = 6 Metrics:{'F1score': 0.254142, 'Precision': 0.264058, 'Recall': 0.293334}
+2023/11/17 00:21:08 [INFO] main.476 Test metrics:0.254142 > max_metric!
+2023/11/17 00:21:09 [INFO] main.485 Best Model Saved!
+2023/11/17 00:21:19 [INFO] main.457 Train Epoch = 7 Loss:8.80957 Metrics:{'F1score': 0.475018, 'Precision': 0.473589, 'Recall': 0.519763}
+2023/11/17 00:21:20 [INFO] main.468 Eval Epoch = 7 Metrics:{'F1score': 0.303522, 'Precision': 0.350127, 'Recall': 0.333023}
+2023/11/17 00:21:20 [INFO] main.476 Test metrics:0.303522 > max_metric!
+2023/11/17 00:21:21 [INFO] main.485 Best Model Saved!
+2023/11/17 00:21:31 [INFO] main.457 Train Epoch = 8 Loss:8.10069 Metrics:{'F1score': 0.510945, 'Precision': 0.527954, 'Recall': 0.549891}
+2023/11/17 00:21:32 [INFO] main.468 Eval Epoch = 8 Metrics:{'F1score': 0.321491, 'Precision': 0.339932, 'Recall': 0.357238}
+2023/11/17 00:21:32 [INFO] main.476 Test metrics:0.321491 > max_metric!
+2023/11/17 00:21:32 [INFO] main.485 Best Model Saved!
+2023/11/17 00:21:42 [INFO] main.457 Train Epoch = 9 Loss:7.10398 Metrics:{'F1score': 0.6135, 'Precision': 0.638089, 'Recall': 0.632628}
+2023/11/17 00:21:43 [INFO] main.468 Eval Epoch = 9 Metrics:{'F1score': 0.378429, 'Precision': 0.410116, 'Recall': 0.399442}
+2023/11/17 00:21:43 [INFO] main.476 Test metrics:0.378429 > max_metric!
+2023/11/17 00:21:44 [INFO] main.485 Best Model Saved!
+2023/11/17 00:21:53 [INFO] main.457 Train Epoch = 10 Loss:6.17746 Metrics:{'F1score': 0.725989, 'Precision': 0.765755, 'Recall': 0.736831}
+2023/11/17 00:21:54 [INFO] main.468 Eval Epoch = 10 Metrics:{'F1score': 0.385285, 'Precision': 0.387922, 'Recall': 0.424583}
+2023/11/17 00:21:54 [INFO] main.476 Test metrics:0.385285 > max_metric!
+2023/11/17 00:21:55 [INFO] main.485 Best Model Saved!
+2023/11/17 00:22:05 [INFO] main.457 Train Epoch = 11 Loss:5.81683 Metrics:{'F1score': 0.742294, 'Precision': 0.762622, 'Recall': 0.747839}
+2023/11/17 00:22:06 [INFO] main.468 Eval Epoch = 11 Metrics:{'F1score': 0.421015, 'Precision': 0.427455, 'Recall': 0.457797}
+2023/11/17 00:22:06 [INFO] main.476 Test metrics:0.421015 > max_metric!
+2023/11/17 00:22:07 [INFO] main.485 Best Model Saved!
+2023/11/17 00:22:17 [INFO] main.457 Train Epoch = 12 Loss:5.09868 Metrics:{'F1score': 0.785869, 'Precision': 0.79758, 'Recall': 0.79289}
+2023/11/17 00:22:18 [INFO] main.468 Eval Epoch = 12 Metrics:{'F1score': 0.422945, 'Precision': 0.454295, 'Recall': 0.443073}
+2023/11/17 00:22:18 [INFO] main.476 Test metrics:0.422945 > max_metric!
+2023/11/17 00:22:19 [INFO] main.485 Best Model Saved!
+2023/11/17 00:22:29 [INFO] main.457 Train Epoch = 13 Loss:4.86428 Metrics:{'F1score': 0.792655, 'Precision': 0.79754, 'Recall': 0.805664}
+2023/11/17 00:22:30 [INFO] main.468 Eval Epoch = 13 Metrics:{'F1score': 0.394249, 'Precision': 0.430929, 'Recall': 0.41803}
+2023/11/17 00:22:39 [INFO] main.457 Train Epoch = 14 Loss:4.36451 Metrics:{'F1score': 0.839424, 'Precision': 0.881173, 'Recall': 0.832975}
+2023/11/17 00:22:41 [INFO] main.468 Eval Epoch = 14 Metrics:{'F1score': 0.393321, 'Precision': 0.42821, 'Recall': 0.39638}
+2023/11/17 00:22:50 [INFO] main.457 Train Epoch = 15 Loss:4.33576 Metrics:{'F1score': 0.842546, 'Precision': 0.847087, 'Recall': 0.852221}
+2023/11/17 00:22:51 [INFO] main.468 Eval Epoch = 15 Metrics:{'F1score': 0.453876, 'Precision': 0.494279, 'Recall': 0.472294}
+2023/11/17 00:22:51 [INFO] main.476 Test metrics:0.453876 > max_metric!
+2023/11/17 00:22:52 [INFO] main.485 Best Model Saved!
+2023/11/17 00:23:02 [INFO] main.457 Train Epoch = 16 Loss:3.68405 Metrics:{'F1score': 0.866397, 'Precision': 0.88261, 'Recall': 0.869673}
+2023/11/17 00:23:03 [INFO] main.468 Eval Epoch = 16 Metrics:{'F1score': 0.418088, 'Precision': 0.470072, 'Recall': 0.432464}
+2023/11/17 00:23:13 [INFO] main.457 Train Epoch = 17 Loss:3.54792 Metrics:{'F1score': 0.909946, 'Precision': 0.952843, 'Recall': 0.901992}
+2023/11/17 00:23:14 [INFO] main.468 Eval Epoch = 17 Metrics:{'F1score': 0.436215, 'Precision': 0.451327, 'Recall': 0.453504}
+2023/11/17 00:23:24 [INFO] main.457 Train Epoch = 18 Loss:3.49253 Metrics:{'F1score': 0.94442, 'Precision': 0.981932, 'Recall': 0.933155}
+2023/11/17 00:23:25 [INFO] main.468 Eval Epoch = 18 Metrics:{'F1score': 0.436669, 'Precision': 0.45726, 'Recall': 0.457216}
+2023/11/17 00:23:35 [INFO] main.457 Train Epoch = 19 Loss:3.73005 Metrics:{'F1score': 0.884227, 'Precision': 0.910231, 'Recall': 0.884338}
+2023/11/17 00:23:36 [INFO] main.468 Eval Epoch = 19 Metrics:{'F1score': 0.446184, 'Precision': 0.482625, 'Recall': 0.476946}
+2023/11/17 00:23:46 [INFO] main.457 Train Epoch = 20 Loss:3.50445 Metrics:{'F1score': 0.959972, 'Precision': 0.985191, 'Recall': 0.945802}
+2023/11/17 00:23:47 [INFO] main.468 Eval Epoch = 20 Metrics:{'F1score': 0.451445, 'Precision': 0.479477, 'Recall': 0.462362}
+2023/11/17 00:23:57 [INFO] main.457 Train Epoch = 21 Loss:2.91595 Metrics:{'F1score': 0.979885, 'Precision': 0.994306, 'Recall': 0.970034}
+2023/11/17 00:23:58 [INFO] main.468 Eval Epoch = 21 Metrics:{'F1score': 0.474844, 'Precision': 0.490881, 'Recall': 0.494787}
+2023/11/17 00:23:59 [INFO] main.473 checkpoint_20_2_epoch.pt Saved!
+2023/11/17 00:23:59 [INFO] main.476 Test metrics:0.474844 > max_metric!
+2023/11/17 00:24:00 [INFO] main.485 Best Model Saved!
+2023/11/17 00:24:10 [INFO] main.457 Train Epoch = 22 Loss:2.8713 Metrics:{'F1score': 0.981001, 'Precision': 0.995287, 'Recall': 0.971296}
+2023/11/17 00:24:11 [INFO] main.468 Eval Epoch = 22 Metrics:{'F1score': 0.48408, 'Precision': 0.507395, 'Recall': 0.49877}
+2023/11/17 00:24:11 [INFO] main.476 Test metrics:0.48408 > max_metric!
+2023/11/17 00:24:12 [INFO] main.485 Best Model Saved!
+2023/11/17 00:24:22 [INFO] main.457 Train Epoch = 23 Loss:2.58586 Metrics:{'F1score': 0.978796, 'Precision': 0.994149, 'Recall': 0.968981}
+2023/11/17 00:24:23 [INFO] main.468 Eval Epoch = 23 Metrics:{'F1score': 0.503283, 'Precision': 0.523291, 'Recall': 0.518645}
+2023/11/17 00:24:23 [INFO] main.476 Test metrics:0.503283 > max_metric!
+2023/11/17 00:24:24 [INFO] main.485 Best Model Saved!
+2023/11/17 00:24:34 [INFO] main.457 Train Epoch = 24 Loss:2.48681 Metrics:{'F1score': 0.995918, 'Precision': 0.999774, 'Recall': 0.993056}
+2023/11/17 00:24:35 [INFO] main.468 Eval Epoch = 24 Metrics:{'F1score': 0.494985, 'Precision': 0.515589, 'Recall': 0.512204}
+2023/11/17 00:24:44 [INFO] main.457 Train Epoch = 25 Loss:2.76333 Metrics:{'F1score': 0.995918, 'Precision': 0.999774, 'Recall': 0.993056}
+2023/11/17 00:24:46 [INFO] main.468 Eval Epoch = 25 Metrics:{'F1score': 0.487286, 'Precision': 0.512313, 'Recall': 0.502401}
+2023/11/17 00:24:55 [INFO] main.457 Train Epoch = 26 Loss:2.72817 Metrics:{'F1score': 0.983103, 'Precision': 0.986385, 'Recall': 0.982045}
+2023/11/17 00:24:56 [INFO] main.468 Eval Epoch = 26 Metrics:{'F1score': 0.481433, 'Precision': 0.498015, 'Recall': 0.504756}
+2023/11/17 00:25:06 [INFO] main.457 Train Epoch = 27 Loss:2.54093 Metrics:{'F1score': 0.995918, 'Precision': 0.999774, 'Recall': 0.993056}
+2023/11/17 00:25:07 [INFO] main.468 Eval Epoch = 27 Metrics:{'F1score': 0.522224, 'Precision': 0.553686, 'Recall': 0.530523}
+2023/11/17 00:25:07 [INFO] main.476 Test metrics:0.522224 > max_metric!
+2023/11/17 00:25:08 [INFO] main.485 Best Model Saved!
+2023/11/17 00:25:18 [INFO] main.457 Train Epoch = 28 Loss:2.73577 Metrics:{'F1score': 0.995918, 'Precision': 0.999774, 'Recall': 0.993056}
+2023/11/17 00:25:19 [INFO] main.468 Eval Epoch = 28 Metrics:{'F1score': 0.472568, 'Precision': 0.49869, 'Recall': 0.485399}
+2023/11/17 00:25:29 [INFO] main.457 Train Epoch = 29 Loss:2.41477 Metrics:{'F1score': 0.995918, 'Precision': 0.999774, 'Recall': 0.993056}
+2023/11/17 00:25:30 [INFO] main.468 Eval Epoch = 29 Metrics:{'F1score': 0.486374, 'Precision': 0.521205, 'Recall': 0.496384}
+2023/11/17 00:25:40 [INFO] main.457 Train Epoch = 30 Loss:2.39008 Metrics:{'F1score': 0.995918, 'Precision': 0.999774, 'Recall': 0.993056}
+2023/11/17 00:25:41 [INFO] main.468 Eval Epoch = 30 Metrics:{'F1score': 0.479116, 'Precision': 0.513795, 'Recall': 0.489123}
+2023/11/17 00:25:41 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 00:25:41 [DEBUG] connectionpool.971 Starting new HTTPS connection (3): huggingface.co:443
+2023/11/17 00:25:42 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:25:44 [INFO] main.344 Start Training 3!
+2023/11/17 00:25:44 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:25:44 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 00:25:44 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 00:25:44 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 00:25:55 [INFO] main.457 Train Epoch = 1 Loss:15.141 Metrics:{'F1score': 0.008906, 'Precision': 0.005303, 'Recall': 0.027778}
+2023/11/17 00:25:56 [INFO] main.468 Eval Epoch = 1 Metrics:{'F1score': 0.008918, 'Precision': 0.005312, 'Recall': 0.027778}
+2023/11/17 00:25:57 [INFO] main.473 checkpoint_0_3_epoch.pt Saved!
+2023/11/17 00:25:57 [INFO] main.476 Test metrics:0.008918 > max_metric!
+2023/11/17 00:25:58 [INFO] main.485 Best Model Saved!
+2023/11/17 00:26:08 [INFO] main.457 Train Epoch = 2 Loss:14.0592 Metrics:{'F1score': 0.056951, 'Precision': 0.073446, 'Recall': 0.089935}
+2023/11/17 00:26:09 [INFO] main.468 Eval Epoch = 2 Metrics:{'F1score': 0.052217, 'Precision': 0.07713, 'Recall': 0.078501}
+2023/11/17 00:26:09 [INFO] main.476 Test metrics:0.052217 > max_metric!
+2023/11/17 00:26:09 [INFO] main.485 Best Model Saved!
+2023/11/17 00:26:19 [INFO] main.457 Train Epoch = 3 Loss:13.0493 Metrics:{'F1score': 0.081922, 'Precision': 0.083704, 'Recall': 0.127253}
+2023/11/17 00:26:21 [INFO] main.468 Eval Epoch = 3 Metrics:{'F1score': 0.076025, 'Precision': 0.080627, 'Recall': 0.114528}
+2023/11/17 00:26:21 [INFO] main.476 Test metrics:0.076025 > max_metric!
+2023/11/17 00:26:22 [INFO] main.485 Best Model Saved!
+2023/11/17 00:26:32 [INFO] main.457 Train Epoch = 4 Loss:11.9189 Metrics:{'F1score': 0.21757, 'Precision': 0.268008, 'Recall': 0.250992}
+2023/11/17 00:26:33 [INFO] main.468 Eval Epoch = 4 Metrics:{'F1score': 0.158653, 'Precision': 0.212412, 'Recall': 0.192086}
+2023/11/17 00:26:33 [INFO] main.476 Test metrics:0.158653 > max_metric!
+2023/11/17 00:26:33 [INFO] main.485 Best Model Saved!
+2023/11/17 00:26:43 [INFO] main.457 Train Epoch = 5 Loss:10.6461 Metrics:{'F1score': 0.276466, 'Precision': 0.297678, 'Recall': 0.312431}
+2023/11/17 00:26:44 [INFO] main.468 Eval Epoch = 5 Metrics:{'F1score': 0.168476, 'Precision': 0.172451, 'Recall': 0.20865}
+2023/11/17 00:26:44 [INFO] main.476 Test metrics:0.168476 > max_metric!
+2023/11/17 00:26:45 [INFO] main.485 Best Model Saved!

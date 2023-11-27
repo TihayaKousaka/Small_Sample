@@ -1,0 +1,264 @@
+2023/11/17 12:22:14 [INFO] main.94 Log is ready!
+2023/11/17 12:22:14 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:22:14 [INFO] main.106 GPU:0
+2023/11/17 12:22:14 [INFO] main.117 Seed:42
+2023/11/17 12:22:14 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:22:14 [INFO] main.509 Start evaluate!
+2023/11/17 12:22:14 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:22:15 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:22:15 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:22:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:22:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:22:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:22:24 [INFO] main.94 Log is ready!
+2023/11/17 12:22:24 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:22:24 [INFO] main.106 GPU:0
+2023/11/17 12:22:24 [INFO] main.117 Seed:42
+2023/11/17 12:22:25 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:22:25 [INFO] main.509 Start evaluate!
+2023/11/17 12:22:25 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:22:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:22:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:22:27 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:22:27 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:30:17 [INFO] main.94 Log is ready!
+2023/11/17 12:30:17 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:30:17 [INFO] main.106 GPU:0
+2023/11/17 12:30:17 [INFO] main.117 Seed:42
+2023/11/17 12:30:17 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:30:17 [INFO] main.509 Start evaluate!
+2023/11/17 12:30:17 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:30:18 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:30:18 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:19 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:30:19 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:30:19 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:25 [INFO] main.535 best_1.pt Loaded!
+2023/11/17 12:30:28 [INFO] main.572 Metrics for best_1.pt : {'F1score': 0.762063, 'Precision': 0.787779, 'Recall': 0.765178}
+2023/11/17 12:30:28 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:30 [INFO] main.535 best_2.pt Loaded!
+2023/11/17 12:30:33 [INFO] main.572 Metrics for best_2.pt : {'F1score': 0.849029, 'Precision': 0.880762, 'Recall': 0.842888}
+2023/11/17 12:30:33 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:34 [INFO] main.535 best_3.pt Loaded!
+2023/11/17 12:30:38 [INFO] main.572 Metrics for best_3.pt : {'F1score': 0.909553, 'Precision': 0.916912, 'Recall': 0.909452}
+2023/11/17 12:30:38 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 12:30:38 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 12:30:39 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:40 [INFO] main.535 best_4.pt Loaded!
+2023/11/17 12:30:43 [INFO] main.572 Metrics for best_4.pt : {'F1score': 0.90924, 'Precision': 0.911684, 'Recall': 0.915087}
+2023/11/17 12:30:43 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:44 [INFO] main.535 best_5.pt Loaded!
+2023/11/17 12:30:48 [INFO] main.572 Metrics for best_5.pt : {'F1score': 0.891144, 'Precision': 0.923967, 'Recall': 0.880463}
+2023/11/17 12:30:48 [INFO] main.578 Metrics for all model : {'F1score': 0.98516, 'Precision': 0.995502, 'Recall': 0.97793}
+2023/11/17 12:30:50 [INFO] main.94 Log is ready!
+2023/11/17 12:30:50 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:30:50 [INFO] main.106 GPU:0
+2023/11/17 12:30:50 [INFO] main.117 Seed:42
+2023/11/17 12:30:51 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:30:51 [INFO] main.509 Start evaluate!
+2023/11/17 12:30:51 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:30:52 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:30:52 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:30:52 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:30:52 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:31:08 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:37:04 [INFO] main.94 Log is ready!
+2023/11/17 12:37:04 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:37:04 [INFO] main.106 GPU:0
+2023/11/17 12:37:04 [INFO] main.117 Seed:42
+2023/11/17 12:37:04 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:37:04 [INFO] main.509 Start evaluate!
+2023/11/17 12:37:04 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:37:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:37:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:37:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:37:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:37:06 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:37:14 [INFO] main.94 Log is ready!
+2023/11/17 12:37:14 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:37:14 [INFO] main.106 GPU:0
+2023/11/17 12:37:14 [INFO] main.117 Seed:42
+2023/11/17 12:37:15 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:37:15 [INFO] main.509 Start evaluate!
+2023/11/17 12:37:15 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:37:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:37:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:37:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:37:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:37:32 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:43:48 [INFO] main.94 Log is ready!
+2023/11/17 12:43:48 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:43:48 [INFO] main.106 GPU:0
+2023/11/17 12:43:48 [INFO] main.117 Seed:42
+2023/11/17 12:43:48 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:43:48 [INFO] main.509 Start evaluate!
+2023/11/17 12:43:48 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:43:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:43:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:43:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:43:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:43:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:43:58 [INFO] main.94 Log is ready!
+2023/11/17 12:43:58 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:43:58 [INFO] main.106 GPU:0
+2023/11/17 12:43:58 [INFO] main.117 Seed:42
+2023/11/17 12:43:59 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:43:59 [INFO] main.509 Start evaluate!
+2023/11/17 12:43:59 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:44:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:44:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:44:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:44:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:50:47 [INFO] main.94 Log is ready!
+2023/11/17 12:50:47 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:50:47 [INFO] main.106 GPU:0
+2023/11/17 12:50:47 [INFO] main.117 Seed:42
+2023/11/17 12:50:47 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:50:47 [INFO] main.509 Start evaluate!
+2023/11/17 12:50:47 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:50:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:50:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:50:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:50:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:50:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:50:58 [INFO] main.94 Log is ready!
+2023/11/17 12:50:58 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:50:58 [INFO] main.106 GPU:0
+2023/11/17 12:50:58 [INFO] main.117 Seed:42
+2023/11/17 12:50:58 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:50:58 [INFO] main.509 Start evaluate!
+2023/11/17 12:50:58 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:51:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:51:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:51:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:51:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:51:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:24 [INFO] main.94 Log is ready!
+2023/11/17 12:52:24 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:52:24 [INFO] main.106 GPU:0
+2023/11/17 12:52:24 [INFO] main.117 Seed:42
+2023/11/17 12:52:24 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:52:24 [INFO] main.509 Start evaluate!
+2023/11/17 12:52:24 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:52:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:52:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:52:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:52:27 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:33 [INFO] main.535 best_1.pt Loaded!
+2023/11/17 12:52:36 [INFO] main.572 Metrics for best_1.pt : {'F1score': 0.762063, 'Precision': 0.787779, 'Recall': 0.765178}
+2023/11/17 12:52:36 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:37 [INFO] main.535 best_2.pt Loaded!
+2023/11/17 12:52:41 [INFO] main.572 Metrics for best_2.pt : {'F1score': 0.849029, 'Precision': 0.880762, 'Recall': 0.842888}
+2023/11/17 12:52:41 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:42 [INFO] main.535 best_3.pt Loaded!
+2023/11/17 12:52:45 [INFO] main.572 Metrics for best_3.pt : {'F1score': 0.909553, 'Precision': 0.916912, 'Recall': 0.909452}
+2023/11/17 12:52:45 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 12:52:45 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 12:52:46 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:47 [INFO] main.535 best_4.pt Loaded!
+2023/11/17 12:52:51 [INFO] main.572 Metrics for best_4.pt : {'F1score': 0.90924, 'Precision': 0.911684, 'Recall': 0.915087}
+2023/11/17 12:52:51 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:52:52 [INFO] main.535 best_5.pt Loaded!
+2023/11/17 12:52:55 [INFO] main.572 Metrics for best_5.pt : {'F1score': 0.891144, 'Precision': 0.923967, 'Recall': 0.880463}
+2023/11/17 12:52:55 [INFO] main.578 Metrics for all model : {'F1score': 0.98516, 'Precision': 0.995502, 'Recall': 0.97793}
+2023/11/17 12:54:14 [INFO] main.94 Log is ready!
+2023/11/17 12:54:14 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:54:14 [INFO] main.106 GPU:0
+2023/11/17 12:54:14 [INFO] main.117 Seed:42
+2023/11/17 12:54:14 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:54:14 [INFO] main.509 Start evaluate!
+2023/11/17 12:54:14 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:54:15 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:54:15 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:54:16 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:54:17 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:22 [INFO] main.535 best_1.pt Loaded!
+2023/11/17 12:54:26 [INFO] main.572 Metrics for best_1.pt : {'F1score': 0.762063, 'Precision': 0.787779, 'Recall': 0.765178}
+2023/11/17 12:54:26 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:27 [INFO] main.535 best_2.pt Loaded!
+2023/11/17 12:54:30 [INFO] main.572 Metrics for best_2.pt : {'F1score': 0.849029, 'Precision': 0.880762, 'Recall': 0.842888}
+2023/11/17 12:54:30 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:31 [INFO] main.535 best_3.pt Loaded!
+2023/11/17 12:54:35 [INFO] main.572 Metrics for best_3.pt : {'F1score': 0.909553, 'Precision': 0.916912, 'Recall': 0.909452}
+2023/11/17 12:54:35 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 12:54:35 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 12:54:36 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:37 [INFO] main.535 best_4.pt Loaded!
+2023/11/17 12:54:40 [INFO] main.572 Metrics for best_4.pt : {'F1score': 0.90924, 'Precision': 0.911684, 'Recall': 0.915087}
+2023/11/17 12:54:40 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:41 [INFO] main.535 best_5.pt Loaded!
+2023/11/17 12:54:45 [INFO] main.572 Metrics for best_5.pt : {'F1score': 0.891144, 'Precision': 0.923967, 'Recall': 0.880463}
+2023/11/17 12:54:45 [INFO] main.578 Metrics for all model : {'F1score': 0.98516, 'Precision': 0.995502, 'Recall': 0.97793}
+2023/11/17 12:54:47 [INFO] main.94 Log is ready!
+2023/11/17 12:54:47 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:54:47 [INFO] main.106 GPU:0
+2023/11/17 12:54:47 [INFO] main.117 Seed:42
+2023/11/17 12:54:48 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:54:48 [INFO] main.509 Start evaluate!
+2023/11/17 12:54:48 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:54:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:54:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:54:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:54:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:55:05 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:26 [INFO] main.94 Log is ready!
+2023/11/17 12:56:26 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=False, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=True, train=False, warmup=0.0)
+2023/11/17 12:56:26 [INFO] main.106 GPU:0
+2023/11/17 12:56:26 [INFO] main.117 Seed:42
+2023/11/17 12:56:26 [INFO] main.151 Read data: /root/autodl-tmp/CCF-BDCI-fewshot-classification-main/data/fewshot/train.json
+2023/11/17 12:56:26 [INFO] main.509 Start evaluate!
+2023/11/17 12:56:26 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:56:28 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:56:28 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:28 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:56:28 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:56:29 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:34 [INFO] main.535 best_1.pt Loaded!
+2023/11/17 12:56:38 [INFO] main.572 Metrics for best_1.pt : {'F1score': 0.762063, 'Precision': 0.787779, 'Recall': 0.765178}
+2023/11/17 12:56:38 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:39 [INFO] main.535 best_2.pt Loaded!
+2023/11/17 12:56:42 [INFO] main.572 Metrics for best_2.pt : {'F1score': 0.849029, 'Precision': 0.880762, 'Recall': 0.842888}
+2023/11/17 12:56:42 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:44 [INFO] main.535 best_3.pt Loaded!
+2023/11/17 12:56:47 [INFO] main.572 Metrics for best_3.pt : {'F1score': 0.909553, 'Precision': 0.916912, 'Recall': 0.909452}
+2023/11/17 12:56:47 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 12:56:47 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 12:56:48 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:49 [INFO] main.535 best_4.pt Loaded!
+2023/11/17 12:56:52 [INFO] main.572 Metrics for best_4.pt : {'F1score': 0.90924, 'Precision': 0.911684, 'Recall': 0.915087}
+2023/11/17 12:56:52 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:56:54 [INFO] main.535 best_5.pt Loaded!
+2023/11/17 12:56:57 [INFO] main.572 Metrics for best_5.pt : {'F1score': 0.891144, 'Precision': 0.923967, 'Recall': 0.880463}
+2023/11/17 12:56:57 [INFO] main.578 Metrics for all model : {'F1score': 0.98516, 'Precision': 0.995502, 'Recall': 0.97793}
+2023/11/17 12:56:59 [INFO] main.94 Log is ready!
+2023/11/17 12:56:59 [INFO] main.95 Namespace(K=5, assignee=False, awp=-1, batch=128, bert='nghuyong/ernie-3.0-base-zh', board=False, cb=False, cbntr=False, checkpoint=0, data_file='testA.json', data_folder_dir='fewshot', datetime='2023_11_17_12_22_12', db=False, dbfl=False, dropout=0.3, early_stop=10, ema=0.0, en=False, epoch=50, feature_layer=4, fgm=False, fl=False, freeze=0, gpu=['0'], label=36, load=False, load_pt=None, lr=2e-05, mixif=False, model='model1', ntrfl=False, pgd=0, predict=True, predict_with_score=False, rdrop=0.0, rfl=False, save=False, sce=False, seed=42, split_test_ratio=0.2, swa=False, test=False, train=False, warmup=0.0)
+2023/11/17 12:56:59 [INFO] main.106 GPU:0
+2023/11/17 12:56:59 [INFO] main.117 Seed:42
+2023/11/17 12:57:00 [INFO] main.151 Read data: ./data/fewshot/testA.json
+2023/11/17 12:57:00 [INFO] main.509 Start evaluate!
+2023/11/17 12:57:00 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/17 12:57:01 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:57:01 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:57:02 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/17 12:57:02 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/17 12:57:17 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:57:23 [INFO] main.535 best_1.pt Loaded!
+2023/11/17 12:58:35 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 12:58:35 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/17 12:58:36 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:58:37 [INFO] main.535 best_2.pt Loaded!
+2023/11/17 12:59:49 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 12:59:49 [DEBUG] connectionpool.971 Starting new HTTPS connection (3): huggingface.co:443
+2023/11/17 12:59:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 12:59:52 [INFO] main.535 best_3.pt Loaded!
+2023/11/17 13:01:03 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 13:01:03 [DEBUG] connectionpool.971 Starting new HTTPS connection (4): huggingface.co:443
+2023/11/17 13:01:04 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 13:01:06 [INFO] main.535 best_4.pt Loaded!
+2023/11/17 13:02:17 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/17 13:02:17 [DEBUG] connectionpool.971 Starting new HTTPS connection (5): huggingface.co:443
+2023/11/17 13:02:18 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/17 13:02:20 [INFO] main.535 best_5.pt Loaded!
+2023/11/17 13:03:32 [INFO] main.592 Predict Finished!

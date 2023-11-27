@@ -1,0 +1,77 @@
+2023/11/19 17:50:01 [INFO] final.45 Ensemble Log is Ready!
+2023/11/19 17:50:01 [INFO] final.46 Namespace(batch=128, data_file='testB.json', datetime='2023_11_19_17_50_00', gpu=['0', '1', '2', '3'], label=36, model_dict=[{'name': '2023_11_18_14_02_03/best_3.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': '2023_11_18_14_02_03/best_2.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': '2023_11_18_14_02_03/best_1.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': '2023_11_18_16_57_23/best_1.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': '2023_11_18_16_57_23/best_2.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': '2023_11_18_16_57_23/best_3.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': 'new/best_1.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': 'new/best_2.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}, {'name': 'new/best_3.pt', 'model': 'model1', 'bert': 'nghuyong/ernie-3.0-base-zh', 'feature_layers': 4, 'dropout': 0.3, 'language': 'zh'}], model_folder_path='/root/autodl-tmp/CCF-BDCI-fewshot-classification-main/models', model_weight=[1, 1, 1, 1, 1, 1, 1, 1, 1], score=True, single=True, softmax=True)
+2023/11/19 17:50:01 [INFO] final.50 GPU:0,1,2,3
+2023/11/19 17:50:02 [INFO] final.70 Read data: testB.json
+2023/11/19 17:50:02 [INFO] final.76 Start evaluate 1!
+2023/11/19 17:50:02 [DEBUG] connectionpool.971 Starting new HTTPS connection (1): huggingface.co:443
+2023/11/19 17:50:03 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:50:03 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:50:04 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:50:04 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:50:20 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:50:22 [INFO] final.94 2023_11_18_14_02_03/best_3.pt Loaded!
+2023/11/19 17:50:37 [INFO] final.149 Predict 1 Finished!
+2023/11/19 17:50:38 [INFO] final.70 Read data: testB.json
+2023/11/19 17:50:38 [INFO] final.76 Start evaluate 2!
+2023/11/19 17:50:38 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/19 17:50:38 [DEBUG] connectionpool.971 Starting new HTTPS connection (2): huggingface.co:443
+2023/11/19 17:50:39 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:50:39 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:50:39 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:50:39 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:50:57 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:50:58 [INFO] final.94 2023_11_18_14_02_03/best_2.pt Loaded!
+2023/11/19 17:51:12 [INFO] final.149 Predict 2 Finished!
+2023/11/19 17:51:13 [INFO] final.70 Read data: testB.json
+2023/11/19 17:51:13 [INFO] final.76 Start evaluate 3!
+2023/11/19 17:51:13 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/19 17:51:13 [DEBUG] connectionpool.971 Starting new HTTPS connection (3): huggingface.co:443
+2023/11/19 17:51:14 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:51:14 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:51:15 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:51:15 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:51:32 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:51:33 [INFO] final.94 2023_11_18_14_02_03/best_1.pt Loaded!
+2023/11/19 17:51:48 [INFO] final.149 Predict 3 Finished!
+2023/11/19 17:51:48 [INFO] final.70 Read data: testB.json
+2023/11/19 17:51:48 [INFO] final.76 Start evaluate 4!
+2023/11/19 17:51:48 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/19 17:51:48 [DEBUG] connectionpool.971 Starting new HTTPS connection (4): huggingface.co:443
+2023/11/19 17:51:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:51:49 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:51:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:51:50 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:52:07 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:52:09 [INFO] final.94 2023_11_18_16_57_23/best_1.pt Loaded!
+2023/11/19 17:52:23 [INFO] final.149 Predict 4 Finished!
+2023/11/19 17:52:24 [INFO] final.70 Read data: testB.json
+2023/11/19 17:52:24 [INFO] final.76 Start evaluate 5!
+2023/11/19 17:52:24 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/19 17:52:24 [DEBUG] connectionpool.971 Starting new HTTPS connection (5): huggingface.co:443
+2023/11/19 17:52:25 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:52:25 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:52:25 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:52:25 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:52:43 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:52:44 [INFO] final.94 2023_11_18_16_57_23/best_2.pt Loaded!
+2023/11/19 17:52:58 [INFO] final.149 Predict 5 Finished!
+2023/11/19 17:52:59 [INFO] final.70 Read data: testB.json
+2023/11/19 17:52:59 [INFO] final.76 Start evaluate 6!
+2023/11/19 17:52:59 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/19 17:52:59 [DEBUG] connectionpool.971 Starting new HTTPS connection (6): huggingface.co:443
+2023/11/19 17:53:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:53:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:53:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:53:00 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:53:18 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:53:19 [INFO] final.94 2023_11_18_16_57_23/best_3.pt Loaded!
+2023/11/19 17:53:34 [INFO] final.149 Predict 6 Finished!
+2023/11/19 17:53:34 [INFO] final.70 Read data: testB.json
+2023/11/19 17:53:34 [INFO] final.76 Start evaluate 7!
+2023/11/19 17:53:34 [DEBUG] connectionpool.272 Resetting dropped connection: huggingface.co
+2023/11/19 17:53:34 [DEBUG] connectionpool.971 Starting new HTTPS connection (7): huggingface.co:443
+2023/11/19 17:53:35 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:53:35 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
+2023/11/19 17:53:36 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2023/11/19 17:53:36 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/vocab.txt HTTP/1.1" 200 0
+2023/11/19 17:53:53 [DEBUG] connectionpool.452 https://huggingface.co:443 "HEAD /nghuyong/ernie-3.0-base-zh/resolve/main/config.json HTTP/1.1" 200 0
